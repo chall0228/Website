@@ -4,18 +4,7 @@
 .u-section-1 .u-image-1 {width: 480px; height: 360px; margin: -1532px auto 0 -55px}
 .u-section-1 .u-btn-1 {margin: 1270px auto 60px 502px} 
 
-
-@media (max-width: 1199px){ .u-section-1 .u-custom-html-1 {width: 570px; margin-left: 0; margin-right: 0; height: auto}
-.u-section-1 .u-btn-1 {margin-left: 302px} }
-
-@media (max-width: 991px){ .u-section-1 .u-btn-1 {margin-left: 82px} }
-
-@media (max-width: 767px){ .u-section-1 .u-custom-html-1 {width: 540px}
-.u-section-1 .u-btn-1 {margin-left: 0} }
-
-@media (max-width: 575px){ .u-section-1 .u-sheet-1 {min-height: 1133px}
-.u-section-1 .u-custom-html-1 {width: 340px}
-  .navbar {
+.navbar {
   overflow: hidden;
   background-color: #000;
   position: fixed; /* Set the navbar to fixed position */
@@ -39,4 +28,16 @@
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
+
+@media (max-width: 1199px){ .u-section-1 .u-custom-html-1 {width: 570px; margin-left: 0; margin-right: 0; height: auto}
+.u-section-1 .u-btn-1 {margin-left: 302px} }
+
+@media (max-width: 991px){ .u-section-1 .u-btn-1 {margin-left: 82px} }
+
+@media (max-width: 767px){ .u-section-1 .u-custom-html-1 {width: 540px}
+.u-section-1 .u-btn-1 {margin-left: 0} }
+
+@media (max-width: 575px){ .u-section-1 .u-sheet-1 {min-height: 1133px}
+.u-section-1 .u-custom-html-1 {width: 340px}
+ 
 .u-section-1 .u-image-1 {width: 340px; height: 255px; margin-top: 20px; margin-right: 0; margin-left: 0} }
