@@ -13,8 +13,7 @@
   background-color: #333;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
+  width: 50%;}
 
 /* Links inside the navbar */
 .navbar a {
@@ -31,7 +30,6 @@
 }
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
-  margin-right: 50px;
 }
 .u-section-2 .u-sheet-1 {min-height: 642px}
 .u-section-2 .u-layout-wrap-1 {margin-top: 50px; margin-bottom: 50px}
