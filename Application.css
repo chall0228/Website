@@ -3,6 +3,30 @@
 .u-section-1 .u-custom-html-1 {min-height: 1065px; margin: 49px 68px 0 43px}
 .u-section-1 .u-image-1 {width: 480px; height: 360px; margin: -1532px auto 0 -55px}
 .u-section-1 .u-btn-1 {margin: 1270px auto 60px 502px} 
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
 
 @media (max-width: 1199px){ .u-section-1 .u-custom-html-1 {width: 570px; margin-left: 0; margin-right: 0; height: auto}
 .u-section-1 .u-btn-1 {margin-left: 302px} }
